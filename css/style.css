@@ -115,24 +115,20 @@ body {
     align-self: flex-end;
 }
 
-.secondtxt{
-    margin-top: 6rem;
+.secondtxt {
+    margin-top: 10rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(4, 49, 19, 0.938);
-}
-.about_text {
-    width: 40%;
-    font-size: 20px;
+    font-size: large;
 }
 
-.about_text h5 {
-    color: rgb(255, 154, 22);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.about_text h1 {
-    font-size: 45px;
+.text {
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    width: 20rem;
+    border: 2px solid rgb(10, 37, 12);
+    margin-top: 3rem;
 }
 
 .about_text p {
@@ -235,18 +231,6 @@ body {
     margin-top: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-}
-
-#foot {
-    background-image: url(../imgs/istockphoto-522279843-1024x1024.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    padding: 3rem 8rem;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .column {
@@ -355,4 +339,32 @@ body {
 .dot:hover {
     background-color: rgb(173, 173, 173);
 }
+
+.foot{
+    background-image: url(../imgs/istockphoto-522279843-1024x1024.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 3rem 8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
     
+.ul-list2 {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 12rem;
+}
+
+.navitem2{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
