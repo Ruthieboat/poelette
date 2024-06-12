@@ -115,26 +115,12 @@ body {
     align-self: flex-end;
 }
 
-/* sectiontwo */
-
-.container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-   
+.secondtxt{
+    margin-top: 6rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(4, 49, 19, 0.938);
 }
-
-.about_section {
-    margin: 7rem 8rem;
-    display: flex;
-    gap: 2rem;
-}
-
-.about_image {
-    display: flex;
-    width: 50%;
-    gap: 2rem;
-}
-
 .about_text {
     width: 40%;
     font-size: 20px;
@@ -262,3 +248,111 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 12px;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.underpic {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-content: end;
+
+}
+
+#poemname {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: unset;
+}
+
+.dot {
+    display: flex;
+    background-color: rgb(214, 103, 69);
+    padding: 3px 16px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.dot:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.dot a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.one {
+    padding: 0rem 11rem;
+}
+
+.three {
+    padding: 0rem 9rem;
+}
+
+.four {
+    padding: 0rem 1rem;
+}
+
+.five {
+    padding: 0rem 10rem;
+}
+
+.row2 {
+    padding-top: 8rem;
+}
+
+.column2 {
+    padding-top: 5rem;
+    float: left;
+    width: 18%;
+    padding: 12px;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.underpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-content: end;
+}
+
+.ones {
+    display: flex;
+    padding: 0rem 0rem;
+}
+
+#poemnames {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: unset;
+}
+
+.dot {
+    display: flex;
+    background-color: rgb(214, 103, 69);
+    padding: 3px 16px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.dot:hover {
+    background-color: rgb(173, 173, 173);
+}
+    
