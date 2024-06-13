@@ -1,7 +1,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
     overflow-x: hidden;
 }
 
@@ -171,68 +170,6 @@ body {
     background-color: greenyellow;
 }
 
-.serve_section {
-    margin: 2rem 10rem;
-}
-
-.serve_images {
-    display: flex;
-    gap: rem;
-
-}
-
-.image {
-    width: 50%;
-}
-
-.image {
-    width: 50%;
-}
-
-.image {
-    width: 50%;
-}
-
-.serve_text {
-    padding-bottom: 2rem;
-    width: 50%;
-    font-size: 20px;
-    padding-top: 5rem;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.serve_text h5 {
-    color: rgb(255, 154, 22);
-
-}
-
-.serve_text h1 {
-    color: black;
-    font-size: 45px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.serve_text p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-.image a {
-    text-align: none;
-    text-decoration: none;
-    color: rgb(238, 105, 16);
-    font-size: 30px;
-
-}
-
-.serve_but {
-    text-align: center;
-    margin-top: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
 .column {
     float: left;
     width: 18%;
@@ -340,7 +277,7 @@ body {
     background-color: rgb(173, 173, 173);
 }
 
-.foot{
+.foot {
     background-image: url(../imgs/istockphoto-522279843-1024x1024.jpg);
     background-position: center;
     background-size: cover;
@@ -349,7 +286,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-    
+
 .ul-list2 {
     display: flex;
     gap: 65px;
@@ -360,11 +297,83 @@ body {
     padding-left: 12rem;
 }
 
-.navitem2{
+.pay {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.end {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navitem2 {
     display: flex;
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: bold;
 
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+
+
+}
+
+.poets {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    gap: 80px;
+    padding-top: 0rem;
+
+}
+
+.poets img {
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    gap: 40pt;
+    padding-right: 5rem;
+}
+
+.write {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    text-align: center;
+}
+
+.maya {
+    padding-left: 2rem;
+    justify-content: center;
+    color: rgba(4, 49, 19, 0.938);
+}
+
+.ruthie {
+    padding-left: 0rem;
+    color: rgba(4, 49, 19, 0.938);
+}
+
+.mandy {
+    padding-left: 1rem;
+    justify-content: center;
+    color: rgba(4, 49, 19, 0.938);
+}
+
+.uzo {
+    padding-left: 1rem;
+    color: rgba(4, 49, 19, 0.938);
 }
