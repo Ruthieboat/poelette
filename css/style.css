@@ -149,16 +149,19 @@ body {
     padding: 8px;
     border-radius: 10px;
 }
+
 .formbox {
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(194, 60, 60);
 }
+
 .formbox button {
-    
+
     font-size: 14px;
     background-color: white;
 }
+
 .formbox text {
     color: black;
 }
@@ -268,10 +271,10 @@ body {
 }
 
 
-#meet{
+#meet {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    text-decoration: underline ;
+    text-decoration: underline;
     padding-top: 5rem;
 }
 
@@ -336,6 +339,28 @@ body {
     background-color: rgb(173, 173, 173);
 }
 
+
+.view {
+    display: flex;
+    flex-direction: row;
+    margin-left: 38rem;
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+    border-radius: 4rem;
+    background-color: rgb(231, 227, 226);
+}
+
+.view:hover {
+   background-color: rgb(255, 71, 71);
+}
+
+.view a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+
+}
 
 .intro {
     display: flex;
